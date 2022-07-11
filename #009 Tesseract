@@ -1,0 +1,46 @@
+<div class="rombo cel"></div>
+<div class="rombo bl"></div>
+<div class="rect"></div>
+<div class="circle"></div>
+<style>
+  *{background:#222730}
+  .rombo  {
+    position:absolute;
+    left:125px;
+    top:75px;
+    transform:rotate(45deg)
+  }
+  .cel{
+    width: 150px;
+    height: 150px;
+    background: #4CAAB3;
+    z-index:3
+  }
+  .bl{
+    width: 250px;
+    height: 250px;
+    left:75px;
+    top:25px;
+    background:#222730;
+    z-index:2;
+  }
+  .rect{
+    background:#4caab3;
+    width:400px;
+	height:150px;
+    position:absolute;
+    top:75px;
+    left:0;
+    z-index:1
+  }
+  .circle{
+    z-index:5;
+    width:50px;
+    height:50px;
+    background:#393E46;
+    border-radius:50%;
+    left:175px;
+    top:125px;
+    position:absolute;
+  }
+</style>
