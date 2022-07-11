@@ -1,0 +1,85 @@
+<div class="circle min orange left" id="a"></div>
+<div class="circle max bordo left"></div>
+
+<div class="circle min bordo mid" id="b"></div>
+<div class="circle max orange mid"></div>
+
+<div class="circle min orange right" id="c"></div>
+<div class="circle max bordo right"></div>
+
+<div class="hold one"></div>
+<div class="hold two"></div>
+<div class="hold three"></div>
+<style>
+  *{background:#62306d;}
+  div {
+    position:absolute;
+  }
+  
+  .circle{
+    border-radius:50%;
+      z-index:2
+  }
+  
+  .max{
+    width:100px;
+    height:100px;
+    z-index:2;
+  }
+  .bordo{
+    background:#aa445f;
+  }
+  .orange{
+    background:#e38f66;
+  }
+  .hold{
+    background:#f7ec7d;
+    width:100px;
+    height:100px;
+    bottom:0px;
+    z-index:1;
+  }
+  .one{
+    left:50px;
+  }
+  .two{
+    left:150px;
+    height:200px
+  }
+  .three{
+    left:250px;
+  }
+  
+  .left{
+    left:50px;
+    bottom:50px;
+  }
+  
+  .mid{
+    left:150px;
+    bottom:150px;
+  }
+  
+  .right{
+    left:250px;
+    bottom:50px;
+  }
+  .min{
+    width:60px;
+    height:60px;
+      z-index:3;
+    bottom:70px;
+  }
+  #a{
+    left:70px;
+  }
+  #c{
+   left:270px;
+  }
+  #b{
+    left:170px;
+    bottom:170px
+  }
+  
+  
+</style>
